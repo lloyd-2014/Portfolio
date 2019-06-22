@@ -2,8 +2,8 @@
     background-color: #030405;
     border: 3px solid aliceblue;
     min-width: 245px;
-    width: 75%;
-    height: 75%;
+    width: 400px;
+    height: 400px;
     padding: 25px;
     padding-left: 45px;
     padding-top: 45px;
@@ -45,6 +45,7 @@
 
 #text{
     font-size: 25px;
+    color: white;
 }
 
 .tile1{
