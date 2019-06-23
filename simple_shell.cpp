@@ -1,6 +1,6 @@
 /*
 * PROGRAM NAME: simple_shell
-* AUTHORS: Lloyd-Kendall Junos, Peter Valadkhan
+* AUTHORS: Lloyd-Kendall Junos, Peter Valadkhan (Instructor)
 * STUDENT#: 300125313
 * COURSE: COMP 340
 * INSTRUCTOR: Peter Valadkhan
