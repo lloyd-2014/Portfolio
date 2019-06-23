@@ -4,59 +4,48 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="home.css" type="text/css">
+        
+        <!-- My CSS -->
         <link rel="stylesheet" type="text/css" href="assignment_2.css">
+
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Source+Code+Pro&display=swap" rel="stylesheet">
+
         <title>Lloyd Junos</title>
     </head>
 
     <body>
         <!-- Banner -->
-        <div class="jumbotron jumbotron-fluid" style="background-color: aqua;">
+        <div class="jumbotron jumbotron-fluid" style="background-color: yellow;">
             <div class="container">
-                <p>Lloyd Junos</p>
+                <h1>Lloyd Junos</h1>
             </div>
         </div>
 
         <!-- About -->
-        <div class="container">
+        <div class="container" style="padding-bottom: 100px;padding-top: 100px;">
             <h1>About</h1>
             <p>
-                Hello, world Hello, world Hello, world Hello, world Hello, world Hello, worldHello, worldHello, world
-                Hello, world Hello, world Hello, world Hello, world Hello, world Hello, worldHello, worldHello, world
-                Hello, world Hello, world Hello, world Hello, world Hello, world Hello, worldHello, worldHello, world
-                Hello, world Hello, world Hello, world Hello, world Hello, world Hello, worldHello, worldHello, world
+                Hello. I'm currently studying Computing Science at the <a href="https://www.ufv.ca/" target="_blank">University of the Fraser Valley</a> (UFV). I plan on graduating 
+                very soon, December 2019 to be exact.
             </p>
-        </div>
-
-        <!-- Statistics -->
-        <div class="container">
-            <h1>Statistics</h1>
-            <div class="container">
-                <div class="skills html">90%</div>
-                </div>
-                
-                <p>CSS</p>
-                <div class="container">
-                <div class="skills css">80%</div>
-                </div>
-                
-                <p>JavaScript</p>
-                <div class="container">
-                <div class="skills js">65%</div>
-                </div>
-                
-                <p>PHP</p>
-                <div class="container">
-                <div class="skills php">60%</div>
-                </div>
+            <p>
+                Email: <a href="mailto:lk.junos@gmail.com" target="_top">lk.junos@gmail.com</a>
+            </p>
         </div>
 
         <!-- Projects -->
         <div class="container">
-            <h1>Projects</h1>
+            <section class="project">
+                <h1>Projects</h1>
+                <p>
+                    Below is a collection of nearly all my projects and assignments I completed at UFV.
+                </p>
+            </section>
             <!-- Space game -->
             <article class="project">
                 <div class="row">
@@ -67,21 +56,24 @@
                     </div>
                     <div class="col">
                         <h4>Space Game</h4>
-                        <p>2018 | <a href="#">github</a> | Language(s): <i>Processing  </i></p>
+                        <p>2018 | <a href="#">github</a> | <i>Processing, Java</i></p>
                         <p>
-                            A game I created for my user interface design class. 
-                            The objective of the game is to collect as many moon specimens as possible without being killed from the enemy space aliens.
-                            The player can end the game by entering the orbiter.
+                            A game I created for my user interface design course. 
+                            The objective of the game is to collect as many moon specimens as possible (i.e. the coloured squares) without 
+                            being killed by the enemy space aliens.
+                            The player can end the game by entering the orbiter. 
                         </p>
                         <p>
                             I used Processing to develop the game, which is "an open-source graphical library and integrated development environment (IDE) / playground built for the electronic arts", which uses
-                            the Java as its programming language (<a href="https://en.wikipedia.org/wiki/Processing_(programming_language)" target="_blank">Source</a>). 
+                            Java as its programming language (<a href="https://en.wikipedia.org/wiki/Processing_(programming_language)" target="_blank">Wikipedia</a>). 
+                            I'm planning to convert the game into Processing.js, which is basically a version of Processing but in JavaScript so others can play it online.
                         </p>
                     </div>
                 </div>
             </article>
-            <!-- Space game modal -->
-            <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+           
+            <!-- modal -->
+            <div class="modal fade bd-example-modal-lg" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">              
                         <div class="modal-body">
@@ -91,6 +83,126 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- Moxie.Build -->
+            <article class="project">
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="pop">
+                            <img src="project_images/moxHome.jpg" class="projImg">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h4>E-commerce Shopping Application</h4>
+                        <p>2018 | <a href="moxiecode.mox" target="_blank">Source</a> | <i><a href="https://moxie.build/" target="_blank">Moxie.Build</a></i></p>
+                        <p>
+                            I developed an online shopping application with a shopping cart, billing, and product rating systems during my practicum
+                            at Cnawlece Incorporated, now <a href="https://wisebox.solutions/" target="_blank">Wisebox Solutions</a>. The application
+                            was a training project for using the company's web development platform, Moxie.Build.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ChocAn -->
+            <article class="project">
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="pop">
+                            <img src="project_images/chocAnProviderLogin.jpg" class="projImg">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h4>Health Care Provider Software</h4>
+                        <p>2018 | <a href="#">GitHub</a> | <i>Java, JavaFX, PostgreSQL</i></p>
+                            This was my final project for my software engineering course, where I development 
+                        <p>
+                           
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- COMP 331 -->
+            <article class="project">
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="pop">
+                            <img src="project_images/comp331.jpg" class="projImg">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h4>Missing Data Imputation Using Linear Regression</h4>
+                        <p>2018 | <a href="#">GitHub</a> | <i>Python, Jupyter Notebook</i></p>
+                        <p>
+                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
+                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
+                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
+                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Shell -->
+            <article class="project">
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="pop">
+                            <img src="project_images/shell.jpg" class="projImg" style="width: 100%;">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h4>Linux Shell</h4>
+                        <p>2017 | <a href="simple_shell.cpp" target="_blank">Source</a> | <i>C++</i></p>
+                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
+                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
+                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
+                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Driver for IDE/ATA disks  -->
+            <article class="project">
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="pop">
+                            <img src="project_images/harddrive.jpg" class="projImg">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h4>Driver for IDE/ATA disks </h4>
+                        <p>2017 | <a href="#" data-toggle="modal" data-target="#exampleModal">Source</a> | <i>X86-64 Assembly</i></p>
+                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
+                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
+                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
+                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog -->
+            <article class="project">
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="pop">
+                            <img src="project_images/blog.jpg" class="projImg">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h4>Blog</h4>
+                        <p>2017 | <a href="#" data-toggle="modal" data-target="#exampleModal">Source</a> | <i>JavaScript, PHP, HTML, CSS, MySQL, Apache</i></p>
+                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
+                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
+                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
+                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
+                    </div>
+                </div>
+            </article>
 
             <!-- Tile 15 -->
             <article class="project">
@@ -120,27 +232,129 @@
                         
                     </div>
                     <div class="col">
-                        <h4>Space Game</h4>
-                        <p>2018 | <a href="#">github</a> | Language(s): <i>Processing  </i></p>
+                        <h4>15-Puzzle</h4>
+                        <p>2017 | <a href="#">github</a> | <i>JavaScript, jQuery, HTML, CSS</i></p>
                         <p>
-                            A game I created for my user interface design class. 
-                            The objective of the game is to collect as many moon specimens as possible without being killed from the enemy space aliens.
-                            The player can end the game by entering the orbiter.
+                            Try solving the puzzle on the left by clicking the tiles.
+                            It's my implementation of the classic sliding tile puzzle I created for one of my web programming courses.
+                            The objective of the game is to arrange the tiles in ascending order for each row starting from 1 and ending in 15.
                         </p>
                         <p>
-                            I used Processing to develop the game, which is "an open-source graphical library and integrated development environment (IDE) / playground built for the electronic arts", which uses
-                            the Java as its programming language (<a href="https://en.wikipedia.org/wiki/Processing_(programming_language)" target="_blank">Source</a>). 
+                            I ended up writing a little over 1000 lines of JavaScript for the game, which could have been reduced by well over half
+                            the lines if I had written separate functions responsible for creating each tile and what happens when each tile is selected. If you take
+                            a look at the source code, you will notice a lot of code repetition. I'm planning to modularize my code in the future.
                         </p>
                     </div>
                 </div>
             </article>
+
+            <!-- Phone Contact List -->
+            <article class="project">
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="pop">
+                            <img src="project_images/comp150.jpg" class="projImg">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h4>Phone Contact List</h4>
+                        <p>2016 | <a href="comp150final.cpp" target="_blank">Source</a> | <i>C++</i></p>
+                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
+                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
+                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
+                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
+                    </div>
+                </div>
+            </article>
+
         </div>
+
+        <!-- Statistics -->
+        <div class="container" style="padding-bottom: 100px;">
+            <h1>Statistics</h1>
+            <div class="row">
+                <div class="col">
+                    <div id="piechart"></div>
+                </div>
+                <div class="col">
+                    <div id="barchart_material" style="width: 100%; height: 100%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><a href="https://github.com/lloyd-2014" target="_blank">GitHub</a></div>
+                    <div class="col"><a href="https://www.linkedin.com/in/lloyd-junos-381861153/" target="_blank">LinkedIn</a></div>
+                    <div class="col"><a href="mailto:lk.junos@gmail.com" target="_top">Email</a></div>
+                </div>
+            </div>
+        </footer>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <!-- Pie Chart -->
+        <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_pie_chart -->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            // Load google charts
+            google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+
+            // Draw the chart and set the chart values
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Language', 'Projects'],
+                    ['Java', 2],
+                    ['C++', 2],
+                    ['Python', 1],
+                    ['JavaScript', 2],
+                    ['PHP', 1],
+                    ['HTML/CSS',3],
+                    ['Assembly',1]
+            ]);
+
+            // Optional; add a title and set the width and height of the chart
+            var options = {'title':'Languages used in Projects', 'width':550, 'height':400};
+
+            // Display the chart inside the <div> element with id="piechart"
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+             chart.draw(data, options);
+            }
+
+            google.charts.load('current', {'packages':['bar']});
+            google.charts.setOnLoadCallback(drawBarChart);
+
+            function drawBarChart() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Language', 'Lines of Code'],
+                    ['Java', 4623],
+                    ['JavaScript', 1400],
+                    ['C++', 1308],
+                    ['PHP', 424],
+                    ['Assembly', 117],
+                    ['Python', 53]
+                ]);
+
+                var options = {
+                chart: {
+                    title: 'Approximate Lines of Code Written in Projects',
+                    subtitle: '2016-2018',
+                },
+                bars: 'horizontal' // Required for Material Bar Charts.
+                };
+
+                var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+                chart.draw(data, google.charts.Bar.convertOptions(options));
+            }
+            
+        </script>
         
         <!-- For image modal -->
         <script>
@@ -151,6 +365,144 @@
                 });		
             });
         </script>
+
+        <!-- Assembly modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Source Code</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+<pre style="width: 100%; height: 400px;">
+section	.text
+    global _start
+
+_start:
+    mov AX, BX      ; move the 16-bit address from BX to AX
+                    ; assume that the address was stored in BX
+    push AX         ; save the original AX
+    push 0x01       ; 1
+    push 0x00       ; 0
+    push 0x03       ; 3
+    push 0x05       ; 5
+    push 0x000A     ; 10
+    push [eip+2]    ; the 32-bit return address
+    trap IDE_access 
+_IDE_access:   
+    push ebp
+    mov ebp, esp
+    
+    cmp [esp+6], 0x00   ; access primary master 
+    je primaryMaster
+
+    cmp [esp+6], 0x01   ; access primary slave
+    je primarySlave
+    
+    cmp [esp+6], 0x02   ; access secondary master
+    je secondaryMaster 
+    
+    cmp [esp+6], 0x03   ; access secondary slave
+    je secondarySlave
+    jmp err             ; error
+
+    primaryMaster:
+        cmp [esp+7], 0x00   ; check for read operation
+        je pm1
+        cmp [esp+7], 0x10   ; check for write operation
+        je pm2
+        pm1:                    ; read
+            AND 0x1F7, 0x40     ; check if BSY is set
+            jnz pm1             ; if BSY set, busy wait
+            AND 0x1F7, 0xC0     ; check if DRDY is set 
+            jz pm1              ; if DRDY is not set, busy wait
+            mov AL, 0x00        ; master drive is selected      
+            out AL, 0xF7        ; program drive/head
+            mov AX, [esp+10]    ; move cylinder_address into AX
+            out AX, 0x1F5       ; program cylinder_address 
+            mov AL, [esp+9]     ; move sector_address into AL
+            out AL, 0x1F3       ; program sector number
+            mov AL, [esp+8]     ; move sector_count into AL
+            out AL, 0x1F2       ; program sector count
+            out 0x21, 0x1F7;    ; program command register for read operation
+            pmRead:             ; begin reading
+                AND 0x1F7, 0x09 ; check if DRQ && ERR == 0 
+                jz pmRead       ; continue reading if DRQ && ERR == 0 
+                AND 0x1F7, 0x01 ; check if ERR = 1
+                jnz pmReadErr   ; ERR = 1 if AND operation != 0
+                AND 0x1F7, 0x08 ; check if DRQ = 1
+                jnz pmGetData   ; read data if DRQ is set 
+                jmp pmRead      ; if DRQ = 0 busy wait
+                pmReadErr:      ; exit function 
+                    mov esp, ebp
+                    pop ebp
+                    ret 10
+                pmGetData:
+                    mov DX, 0xF0    ; read data from IDE
+                    mov DI, [esp+4] ; address of the char array
+                    mov CX, 256     ; number of words to be transferred (512 bytes)
+                    REP INSW        ; 512 bytes read from the data register port
+                                    ; and stored in the char array
+                    cmp 0x1F2, 0x00 ; check if sector count is 0
+                    jnz pmRead      ; if sector != 0, read next sector
+                    jmp endIf       ; exit function
+                
+        pm2:                    ; write
+            AND 0x1F7, 0x40     ; check if BSY is set
+            jnz pm2             ; if BSY set, busy wait
+            AND 0x1F7, 0xC0     ; check if DRDY is set 
+            jz pm2              ; if DRDY is not set, busy wait
+            mov AL, 0x00        ; master drive is selected      
+            out AL, 0xF7        ; program drive/head
+            mov AX, [esp+10]    ; move cylinder_address into AX
+            out AX, 0x1F5       ; program cylinder_address 
+            mov AL, [esp+9]     ; move sector_address into AL
+            out AL, 0x1F3       ; program sector number
+            mov AL, [esp+8]     ; move sector_count into AL
+            out AL, 0x1F2       ; program sector count
+            out 0x31, 0x1F7;    ; program command register for read operation
+            pmWrite:            ; begin reading
+                AND 0x1F7, 0x09 ; check if DRQ && ERR == 0 
+                jz pmWrite      ; continue reading if DRQ && ERR == 0 
+                AND 0x1F7, 0x01 ; check if ERR = 1
+                jnz pmWriteErr  ; ERR = 1 if AND operation != 0
+                AND 0x1F7, 0x08 ; check if DRQ = 1
+                jnz pmWriteData ; write data if DRQ is set 
+                jmp pmWrite     ; if DRQ = 0 busy wait
+                pmWriteErr:     ; exit function 
+                    mov esp, ebp
+                    pop ebp
+                    ret 10
+                pmWriteData:
+                    out DX, 0xF0    ; IDE data register port
+                    mov DI, [esp+4] ; address of the char array
+                    mov CX, 256     ; number of words to be transferred (512 bytes)
+                    REP OUTSW       ; 512 bytes written to the data register port
+                                    ; froms the char array
+                    AND 0x1F7, 0x40 ; check if BSY is set
+                    jnz pmWriteData ; if BSY set, busy wait
+                    cmp 0x1F2, 0x00 ; check if sector count is 0
+                    jnz pmWrite     ; if sector != 0, read next sector
+                    jmp endIf       ; exit function
+    primarySlave:
+    secondaryMaster:
+    secondarySlave:
+    endIf:
+        mov esp, ebp
+        pop ebp
+        ret 10
+section .data
+</pre>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Tile 15 game -->
         <script src="assignment_2.js"></script>
