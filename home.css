@@ -1,19 +1,23 @@
 body {
     /* font-family: 'Oxygen Mono', monospace; */
     font-family: 'Quicksand', sans-serif;
-    background-color: #8bf0ba;
+    /* background-color: #F6F6F8; */
+    background-color: #22223A;
+    color: #F6F6F8
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #D56C2C;
 }
 
 .course {
     font-family: 'Quicksand', sans-serif;
+    color: black;
 }
 
 a {
-    color: #0e0fed;
+    color: #D56C2C;
 }
 
 /* Make sure that padding behaves as expected */
@@ -40,13 +44,16 @@ a {
 
 .project {
     padding-bottom: 75px;
-    /* background-color: #94f0f1;
-    padding: 40px; */
 }
 
 footer {
     width: 100%; 
     height: 100px; 
-    background-color: #ffdc6a;
+    background-color: #D56C2C;
     text-align: center;
+    color: #F6F6F8;
+}
+
+footer a {
+    color: #E3E3E3;
 }
