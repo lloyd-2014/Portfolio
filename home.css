@@ -1,9 +1,9 @@
 body {
     /* font-family: 'Oxygen Mono', monospace; */
     font-family: 'Quicksand', sans-serif;
-    /* background-color: #F6F6F8; */
-    background-color: #22223A;
-    color: #F6F6F8
+    background-color: #F6F6F8;
+    /* background-color: #22223A; */
+    /* color: #F6F6F8 */
 }
 
 h1, h2, h3, h4 {
