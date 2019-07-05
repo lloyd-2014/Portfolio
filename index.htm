@@ -13,26 +13,27 @@
         <link rel="stylesheet" type="text/css" href="assignment_2.css">
 
         <!-- fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Source+Code+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Roboto:300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Source+Code+Pro&display=swap" rel="stylesheet"> -->
 
         <title>Lloyd Junos</title>
     </head>
 
     <body>
         <!-- Banner -->
-        <div class="jumbotron jumbotron-fluid" style="background-color: yellow;">
+        <div class="jumbotron jumbotron-fluid" style="background-color:#ffdc6a;">
             <div class="container">
                 <h1>Lloyd Junos</h1>
             </div>
         </div>
 
         <!-- About -->
-        <div class="container" style="padding-bottom: 100px;padding-top: 100px;">
+        <div class="container">
             <h1>About</h1>
             <p>
-                Hello. I'm currently majoring in Computing Science at the <a href="https://www.ufv.ca/" target="_blank">University of the Fraser Valley</a> (UFV). 
-                I plan on graduating very soon, December 2019 to be exact. I'm looking forward to completing my character arc that began in mid-2016 and
-                of course, beginning a new one. Wish me luck.
+                Hello. I am currently majoring in computing science at the <a href="https://www.ufv.ca/" target="_blank">University of the Fraser Valley</a> (UFV)
+                and am anticipating on graduating this December 2019 with a Bachelor of Science. If you would like to contact me, please use the following links:
             </p>
             <ul style="list-style-type:square;">
                 <li><a href="mailto:lk.junos@gmail.com" target="_top">lk.junos@gmail.com</a></li>
@@ -42,12 +43,12 @@
 
         <!-- Projects -->
         <div class="container">
-            <section class="project">
+            <!-- <section class="project"> -->
                 <h1>Projects</h1>
                 <p>
-                    Below is a collection of nearly all my projects and assignments I completed at UFV.
+                    Below is a collection of nearly all my projects and assignments I have completed at UFV so far.
                 </p>
-            </section>
+            <!-- </section> -->
             <!-- Space game -->
             <article class="project">
                 <div class="row">
@@ -58,7 +59,7 @@
                     </div>
                     <div class="col">
                         <h4>Space Invaders Remix</h4>
-                        <p>2018 | <a href="#">github</a> | <i>Processing, Java</i></p>
+                        <p>2018 | <i>Processing, Java</i></p>
                         <p>
                             A game I created for my user interface design course. 
                             The objective of the game is to collect as many moon specimens as possible (i.e. the coloured squares) without 
@@ -116,10 +117,10 @@
                     </div>
                     <div class="col">
                         <h4>Health Care Provider Software</h4>
-                        <p>2018 | <a href="#">GitHub</a> | <i>Java, JavaFX, PostgreSQL</i></p>
-                            This was my final project for my software engineering course, where I development 
+                        <p>2018 | <i>Java, JavaFX, PostgreSQL</i></p>
                         <p>
-                           
+                            This was my final project for my software engineering course where myself and three others developed an interface 
+                            for providers at a fictional health care organization to process patient data and generate various types of reports.
                         </p>
                     </div>
                 </div>
@@ -135,12 +136,12 @@
                     </div>
                     <div class="col">
                         <h4>Missing Data Imputation Using Linear Regression</h4>
-                        <p>2018 | <a href="#">GitHub</a> | <i>Python, Jupyter Notebook</i></p>
+                        <p>2018 | <i>Python, Jupyter Notebook</i></p>
                         <p>
-                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
-                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
-                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
-                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
+                            From around 1950 to 1980 of the National Basketball Association (NBA), 
+                            certain player statistics recorded in the modern NBA such as blocks, steals, and the 3 pointer were not recorded. 
+                            I used a statistical technique in my data quality course called data or unit imputation to fill those empty statistics for those players.
+                            Linear regression was used to predict what those missing data values could have been. 
                         </p>
                     </div>
                 </div>
@@ -157,13 +158,61 @@
                     <div class="col">
                         <h4>Linux Shell</h4>
                         <p>2017 | <a href="simple_shell.cpp" target="_blank">Source</a> | <i>C++</i></p>
-                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
-                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
-                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
-                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
-                        <p>
-                            
-                        </p>
+                        <p>A command line shell I developed in my operating systems course.</p>
+                        <div style="height:250px;overflow:auto;">
+                            <table class="table">
+                                <tr>
+                                    <th>Commands</th>
+                                    <th>Explanation</th>
+                                    <th>Example</th>
+                                </tr>
+                                <tr>
+                                    <td>cd</td>
+                                    <td>Displays the full current path</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>cd &ltdir&gt</td>
+                                    <td>Changes the current directory to &ltdir&gt</td>
+                                    <td>cd /bin</td>
+                                </tr>
+                                <tr>
+                                    <td>list</td>
+                                    <td>Displays a list of files in the current directory</td>
+                                    <td></td> 
+                                </tr>
+                                <tr>
+                                    <td>mk &ltdir&gt</td>
+                                    <td>Creates a new directory called &ltdir&gt</td>
+                                    <td>mk folder1</td>
+                                </tr>
+                                <tr>
+                                    <td>rm &ltdir&gt</td>
+                                    <td>Removes a directory (empty or not) called &ltdir&gt from the current directory</td>
+                                    <td>rm folder1</td>
+                                </tr>
+                                <tr>
+                                    <td>copy &ltsource&gt &ltdestination&gt</td>
+                                    <td>Copies the file to another file. If the file does not exist, then a new file will be created</td>
+                                    <td>copy source.txt dest.txt
+                                </tr>
+                                <tr>
+                                    <td>exe &ltfile&gt</td>
+                                    <td>Executes the binary file &ltfile&gt</td>
+                                    <td>exe /usr/bin/vi</td>
+                                </tr>
+                                <tr>
+                                    <td>pt</td>
+                                    <td>Displays the process table containing the filename and pid of each process</td>
+                                    <td></td>
+                                </tr> 
+                                <tr>
+                                    <td>fin &ltProcess ID&gt</td>
+                                    <td>Kills a process immediately</td>
+                                    <td>fin 63</td>
+                                </tr>
+                            </table> 
+                        </div>
                     </div>
                 </div>
             </article>
@@ -179,10 +228,11 @@
                     <div class="col">
                         <h4>Driver for IDE/ATA disks </h4>
                         <p>2017 | <a href="#" data-toggle="modal" data-target="#exampleModal">Source</a> | <i>X86-64 Assembly</i></p>
-                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
-                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
-                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
-                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
+                        <p>
+                            One of my assignments in my operatings systems course was to implement a system call in assembly to
+                            call read/write sectors from two hard disks connected to some Integrated Drive Electronics (IDE) controllers on the motherboard
+                            of a computer.
+                        </p>
                     </div>
                 </div>
             </article>
@@ -197,11 +247,9 @@
                     </div>
                     <div class="col">
                         <h4>Blog</h4>
-                        <p>2017 | <a href="#" data-toggle="modal" data-target="#exampleModal">Source</a> | <i>JavaScript, PHP, HTML, CSS, MySQL, Apache</i></p>
-                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
-                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
-                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
-                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
+                        <p>2017 | <i>JavaScript, PHP, HTML, CSS, MySQL, Apache</i></p>
+                            I developed a blog in my web programming course where I reviewed a variety of websites I thought were intriguing. Visitors could create 
+                            their own account to rate and comment on the websites I reviewed. 
                     </div>
                 </div>
             </article>
@@ -235,16 +283,11 @@
                     </div>
                     <div class="col">
                         <h4>15-Puzzle</h4>
-                        <p>2017 | <a href="#">github</a> | <i>JavaScript, jQuery, HTML, CSS</i></p>
+                        <p>2017 | <a href="assignment_2.js" target="_blank">Source</a> | <i>JavaScript, jQuery, HTML, CSS</i></p>
                         <p>
                             Try solving the puzzle on the left by clicking the tiles.
-                            It's my implementation of the classic sliding tile puzzle I created for one of my web programming courses.
+                            It's my implementation of the classic sliding tile puzzle I created in my web programming courses.
                             The objective of the game is to arrange the tiles in ascending order for each row starting from 1 and ending in 15.
-                        </p>
-                        <p>
-                            I ended up writing a little over 1000 lines of JavaScript for the game, which could have been reduced by well over half
-                            the lines if I had written separate functions responsible for creating each tile and what happens when each tile is selected. If you take
-                            a look at the source code, you will notice a lot of code repetition. I'm planning to modularize my code in the future.
                         </p>
                     </div>
                 </div>
@@ -261,10 +304,8 @@
                     <div class="col">
                         <h4>Phone Contact List</h4>
                         <p>2016 | <a href="comp150final.cpp" target="_blank">Source</a> | <i>C++</i></p>
-                            Diam maecenas ultricies mi eget mauris pharetra et ultrices. Pretium quam vulputate dignissim suspendisse in. 
-                            Aenean euismod elementum nisi quis eleifend quam. Sed enim ut sem viverra aliquet eget. 
-                            Nulla facilisi morbi tempus iaculis urna. Lorem ipsum dolor s
-                            it amet consectetur. Netus et malesuada fames ac turpis. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.
+                            This was my final project for my introductory programming course where I developed a command-line interface
+                            for storing and editing contacts.
                     </div>
                 </div>
             </article>
@@ -286,11 +327,11 @@
 
         <!-- Favourite courses -->
         <div class="container" style="padding-bottom: 100px;">
-            <h1>Top 5 Favourite Courses: </h1>
+            <span class="badge badge-success"><h1>Top 5 Favourite Courses</h1></span>
             <!-- #1 -->
             <div class="row">
                 <div class="col">
-                    <h2>1. COMP 340</h2>
+                    <h2 class="course">1. COMP 340</h2>
                 </div>
                 <div class="col">
                     <p>Operating Systems</p>
@@ -300,7 +341,7 @@
             <!-- #2 -->
             <div class="row">
                 <div class="col">
-                    <h2>2. COMP 370</h2>
+                    <h2 class="course">2. COMP 370</h2>
                 </div>
                 <div class="col">
                     <p>Software Engineering</p>
@@ -310,7 +351,7 @@
             <!-- #3 -->
             <div class="row">
                 <div class="col">
-                    <h2>3. COMP 350</h2>
+                    <h2 class="course">3. COMP 350</h2>
                 </div>
                 <div class="col">
                     <p>User Interface and Design</p>
@@ -320,7 +361,7 @@
             <!-- #4 -->
             <div class="row">
                 <div class="col">
-                    <h2>4. COMP 359</h2>
+                    <h2 class="course">4. COMP 359</h2>
                 </div>
                 <div class="col">
                     <p>Design and Analysis: Algorithms</p>
@@ -330,12 +371,58 @@
             <!-- #5 -->
             <div class="row">
                 <div class="col">
-                    <h2>5. COMP 351</h2>
+                    <h2 class="course">5. COMP 351</h2>
                 </div>
                 <div class="col">
                     <p>Advanced Website Programming</p>
                 </div>
             </div>
+
+            <!-- Honourable Mentions -->
+            <br>
+            <span class="badge badge-info"><h2>Honourable Mentions</h2></span>
+            <div class="row">
+                <div class="col">
+                    <h2 class="course">COMP 380</h2>
+                </div>
+                <div class="col">
+                    <p>Introduction to Artificial Intelligence</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 class="course">COMP 481</h2>
+                </div>
+                <div class="col">
+                    <p>Functional and Logic Programming</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 class="course">COMP 420</h2>
+                </div>
+                <div class="col">
+                    <p>Computers and Society</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 class="course">COMP 382</h2>
+                </div>
+                <div class="col">
+                    <p>Languages, Computation, and Machines</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 class="course">COMP 390</h2>
+                </div>
+                <div class="col">
+                    <p>Data Communications</p>
+                </div>
+            </div>
+            
+            
         </div>
 
         <footer>
