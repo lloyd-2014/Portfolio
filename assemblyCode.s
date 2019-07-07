@@ -1,4 +1,3 @@
-<pre>
 section	.text
     global _start
 
@@ -116,4 +115,3 @@ _IDE_access:
         pop ebp
         ret 10
 section .data
-</pre>
