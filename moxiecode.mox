@@ -39,7 +39,7 @@ Method Product.Item.All()
             </div>
         End HtmlBlock
     EndRem
-
+    
     Rem 'Display products on the page. Will implement categories in the future. Displays products in rows.
         LoadTable 	"Product.Item"
         Build       "Product.Item.", "Name", ("<a href='?Product.Select="), "Alias", "'>", "Name", "</a>", "Name"
@@ -116,6 +116,7 @@ Method Product.Item.Display(pAlias)
 
     Rem '<? ProductImage ?>
         Product.Item.Display.Image "ProductImage", pAlias
+
     EndRem
 
     Rem '<? ProductDesc ?>
